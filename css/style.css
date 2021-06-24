@@ -20,18 +20,25 @@
 
 /* Stile immagini */
 
-.product_image {
+img {
     width: 100%;
     padding: 5px;
 }
 
 .main_image {
-    position: absolute;
-    z-index: 1;
+    display: block;
+}
+
+.second_image {
+    display: none;
 }
 
 .product:hover .main_image {
     display: none;
+}
+
+.product:hover .second_image {
+    display: block;
 }
 
 /* Stile tasto like */
