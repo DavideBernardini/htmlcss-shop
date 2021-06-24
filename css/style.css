@@ -14,11 +14,30 @@
 
 .product {
     display: inline-block;
-    height: 300px;
-    width: calc(100% / 3); 
+    width: calc(100% / 3);   
+    position: relative;
+}
+
+.product_image {
+    width: 100%;
     padding: 5px;
 }
 
-.product img {
-    width: 100%;
+#main_image {
+    position: absolute;
+    z-index: 1;
+}
+
+.product:hover #main_image {
+    display: none;
+}
+
+.like {
+    position: absolute;
+    background-color: white;
+    font-size: 25px;
+    padding: 10px 15px;
+    top: 20px;
+    right: 5px;
+    z-index: 2;
 }
