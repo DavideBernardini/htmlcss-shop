@@ -18,6 +18,8 @@
     position: relative;
 }
 
+/* Stile immagini */
+
 .product_image {
     width: 100%;
     padding: 5px;
@@ -32,12 +34,37 @@
     display: none;
 }
 
+/* Stile tasto like */
+
 .like {
     position: absolute;
     background-color: white;
     font-size: 25px;
-    padding: 10px 15px;
+    padding: 5px 10px;
     top: 20px;
     right: 5px;
     z-index: 2;
+}
+
+/* Stile etichette sconti e sostenibilità*/
+
+.tag {
+    display: inline-block;
+    padding: 5px;
+    color: white;
+}
+
+.discount { 
+    background-color: #eb0037;
+}
+
+.sustainability {
+    background-color: #00875a;
+}
+
+.discount_and_sustainability {
+    position: absolute;
+    z-index: 2;
+    left: 5px;
+    bottom: 25px;
 }
