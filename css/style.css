@@ -25,12 +25,12 @@
     padding: 5px;
 }
 
-#main_image {
+.main_image {
     position: absolute;
     z-index: 1;
 }
 
-.product:hover #main_image {
+.product:hover .main_image {
     display: none;
 }
 
