@@ -66,5 +66,15 @@
     position: absolute;
     z-index: 2;
     left: 5px;
-    bottom: 25px;
+    bottom: 100px;
+}
+
+/* Stile caption */
+
+.price {
+    color: #eb0037;
+}
+
+.original_price {
+    text-decoration: line-through;
 }
