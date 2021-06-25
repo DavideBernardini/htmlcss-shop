@@ -19,10 +19,13 @@
 .product {
     display: inline-block;
     width: calc(100% / 3);   
-    position: relative;
 }
 
 /* Stile immagini */
+
+.product_image {
+    position: relative;
+}
 
 .main_image, .second_image {
     width: 100%;
@@ -45,7 +48,7 @@
     display: block;
 }
 
-/* Stile tasto like */
+/* Stile like */
 
 .like {
     position: absolute;
@@ -59,7 +62,7 @@
 
 /* Stile etichette sconti e sostenibilità*/
 
-.tag {
+.discount, .sustainability {
     display: inline-block;
     padding: 5px;
     color: white;
@@ -77,7 +80,7 @@
     position: absolute;
     z-index: 2;
     left: 5px;
-    bottom: 80px;
+    bottom: 20px;
 }
 
 /* Stile caption */
